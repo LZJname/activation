@@ -1,0 +1,8 @@
+1.将XMindCrack.jar放到xmind的安装目录下；
+2.找到xmind目录下的XMind.ini文件，在末尾增加一行
+	-javaagent:D:\Program Files (x86)\XMind\XMindCrack.jar(XMindCrack.jar绝对路径)
+3.()为了避免联网检查，打开hosts文件（一般在C:\Windows\System32\drivers\etc中），在末尾增加两行
+	127.0.0.1 www.xmind.net
+	127.0.0.1 www.xmind.cn
+4.进入xmind，输入秘钥（邮箱可以随便输）
+	XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLIQMQUCUBXRENLK6NZL37JXP4PZXQFILMQ2RG5R7G4QNDO3PSOEUBOCDRYSSXZGRARV6MGA33TN2AMUBHEL4FXMWYTTJDEINJXUAV4BAYKBDCZQWVF3LWYXSDCXY546U3NBGOI3ZPAP2SO3CSQFNB7VVIY123456789012345
