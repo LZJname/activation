@@ -1,0 +1,11 @@
+starUML 3.x破解(windows)
+  1.安装npm(可通过npm -v查看是否已经安装)
+    安装npm之前先安装node,新的node可能集成了npm  https://nodejs.org/en/
+  2.全局安装asar
+    npm install -g asar ,asar -V查看安装是否成功
+  3.解压app.asar
+    asar extract app.asar app //app是存放的路径，app.asar是需要解压的asar文件
+  4.修改源代码
+    修改位置为src\engine\license-manager.js
+  5.重新打包替换原来的app.asar
+    asar pack app app.asar
