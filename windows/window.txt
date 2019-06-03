@@ -1,0 +1,7 @@
+win10专业版：
+  cmd 管理员身份运行
+  slmgr.vbs /upk              //成功卸载密钥
+  slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX       //成功安装密钥        
+  slmgr /skms zh.us.to  //设置秘钥管理服务计算机名 zh.us.to
+  slmgr /ato    //激活产品                 
+  slmgr /xpr 查看激活情况
